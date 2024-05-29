@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos-cal.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <div class="calculator">
+        <h2>SUMA</h2>
+        <input id="sum1" type="number">
+        <input id="sum2" type="number">
+        <button onclick="sumaDosNumeros()">Sumar</a></button>
+        <input disabled id="sumaRes" type="number">
+    </div>
+
+    <div class="calculator">
+        <h2>RESTA</h2>
+        <input id="res1" type="number">
+        <input id="res2" type="number">
+        <button onclick="restaDosNumeros()">Restar</a></button>
+        <input disabled id="restRes" type="number">
+    </div>
+
+    <div class="calculator">
+        <h2>MULTIPLICACIÓN</h2>
+        <input id="mul1" type="number">
+        <input id="mul2" type="number">
+        <button onclick="multiDosNumeros()">Multiplicar</a></button>
+        <input disabled id="mulRes" type="number">
+    </div>
+
+    <div class="calculator">
+        <h2>DIVISIÓN</h2>
+        <input id="div1" type="number">
+        <input id="div2" type="number">
+        <button onclick="divDosNumeros()">Dividir</a></button>
+        <input disabled id="divRes" type="number">
+    </div>
+</div>
+<div id="return-button-1">
+    <li><a href="MENU-PRINCIPAL.html">REGRESAR</a></li>
+</div>
+
+    <script src="actions-cal.js"></script>
+</body>
+</html>

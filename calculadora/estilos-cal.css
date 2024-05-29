@@ -1,0 +1,48 @@
+body {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    padding: 40px;
+    background-image: url('https://img.freepik.com/fotos-premium/cuaderno-calculadora-matematica-fondo-numeros-sobre-fondo-blanco-espacio-copia-plana-laicos_127770-360.jpg?w=740');
+    background-size: cover;
+}
+
+h1 {
+    color: #000000;
+}
+
+.calculator {
+    display: inline-block;
+    border: 5px solid #0a0a0a;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+input[type="number"] {
+    width: 80px;
+}
+
+input[type="text"] {
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    background-color: #04f60c;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #00e2f2; 
+}
+
+#return-button-1{
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
